@@ -28,6 +28,6 @@ jobs:
           julia --project -e 'import Pkg; Pkg.instantiate(); include("fetch.jl");'
           cd ..
       - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v4.7.1
         with:
           commit_message: fetch data
