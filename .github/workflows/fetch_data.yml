@@ -10,7 +10,7 @@ jobs:
   fetch_data:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Cache Julia Packages
         uses: actions/cache@v2
         env:
